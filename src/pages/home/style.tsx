@@ -57,7 +57,7 @@ export const ProjectsArea = styled("section", {
 });
 
 export const ProjectsAreaSocialMediaMessage = styled("aside", {
-  width: "32%",
+  width: "68%",
   display: "flex",
   flexDirection: "column",
   gap: "2rem",
@@ -68,7 +68,7 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
     display: "flex",
     flexDirection: "column",
     overflow: "auto",
-    height: "20rem",
+    height: "23rem",
   },
 
   img: {

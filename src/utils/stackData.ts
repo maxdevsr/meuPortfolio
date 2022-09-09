@@ -33,7 +33,7 @@ export const stackData = [
     title: "CSS",
     img: imgCSS,
   },
-  // { title: "Vuejs", img: FaVuejs },
-  // { title: "TypeScript", img: SiTypescript },
+   { title: "Vuejs", img: FaVuejs },
+   { title: "TypeScript", img: SiTypescript },
   // { title: "Docker", img: FaDocker },
 ];

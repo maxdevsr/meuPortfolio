@@ -44,6 +44,9 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
+              Olá! Seja bem vindo! Atualmente estou no cargo de Programador de Software 
+              na empresa &nbsp;<a href="https://atrialub.com.br/" target="_blank" >
+                Atria Lub</a>,&nbsp;multinacional do setor automotivo.
               Sou estudante de programação FullStack na Kenzie Academy Brasil,
               participei de diversos projetos resolvendo problemas de alto nível
               e desenvolvendo habilidades em busca da minha qualificação

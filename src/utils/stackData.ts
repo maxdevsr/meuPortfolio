@@ -4,11 +4,15 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { FaBootstrap, FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
 
 export const stackData = [
+  { 
+   title: "Vuejs", 
+   img: FaVuejs 
+ },
   {
     title: "React",
     img: imgReact,
@@ -18,12 +22,8 @@ export const stackData = [
     img: imgJS,
   },
   {
-    title: "Styled Components",
-    img: imgStyled,
-  },
-  {
-    title: "Node JS",
-    img: imgNode,
+    title: "Laravel",
+    img: FaLaravel,
   },
   {
     title: "HTML",
@@ -33,7 +33,22 @@ export const stackData = [
     title: "CSS",
     img: imgCSS,
   },
-   { title: "Vuejs", img: FaVuejs },
-   { title: "TypeScript", img: SiTypescript },
+  { 
+    title: "TypeScript", 
+    img: SiTypescript 
+  },
+  { 
+    title: "Bootstrap", 
+    img: FaBootstrap 
+  },
+  
+  {
+    title: "Styled Components",
+    img: imgStyled,
+  },
+  {
+    title: "Node JS",
+    img: imgNode,
+  },
   // { title: "Docker", img: FaDocker },
 ];

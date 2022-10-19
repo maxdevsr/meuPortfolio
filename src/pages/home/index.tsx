@@ -33,6 +33,7 @@ import formulario from "../../imgProject/formulario.png";
 import hamburgueria from "../../imgProject/hamburgueria.png";
 import kenzieHub from "../../imgProject/kenzieHub.png";
 import rickAndMorty from "../../imgProject/rickAndMorty.png";
+import vueHub from "../../imgProject/vuehub.png"
 
 export const Home = (): JSX.Element => {
   return (
@@ -101,10 +102,19 @@ export const Home = (): JSX.Element => {
               </Button>
               <p></p>
               <Text as="h2" type="heading4" color="grey1">
-                Links (deploy) de projetos feitos aqui na Kenzie
+                Links (deploy) de projetos feitos por mim
               </Text>
               <div className="testandoCarrosel">
                 <Text as="p" type="body1" color="grey2">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://vue-hub-five.vercel.app/"
+                    >
+                      <GrView /> VueJs HUB
+                      <img src={vueHub} />
+                    </a>
+                  </div>
                   <div>
                     <a
                       target="_blank"
